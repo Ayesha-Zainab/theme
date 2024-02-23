@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(57, 144, 152);
+    color: white;
+    position: sticky;
+    top: 0px;
+
+}
+
+nav>.d {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 5.7%;
+}
+
+nav>.d1 {
+    display: flex;
+    padding-right: 3%;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.main>h4 {
+    padding-left: 5.9%;
+    padding-top: 4%;
+    font-size: 20px;
+}
+
+.main>h3 {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5.2%;
+    font-size: 79px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.sec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5.7%;
+    padding-left: 5.7%;
+    padding-top: 5%;
+}
+
+.sec>.f {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.sec>.f>h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.l {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.l>.two {
+    width: 39%;
+    height: 360.6px;
+    margin-top: 50px;
+}
+
+.l>.two>img {
+    object-fit: cover;
+    width: 100%;
+}
+.e{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.e>.end{
+    width: 26%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.e>.a{
+    padding-left: 120px;
+}
+.e>.aa{
+    padding-left: 170px;
+}
+
+.e>.end>.di{
+    width: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
